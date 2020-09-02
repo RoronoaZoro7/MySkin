@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/test"
+    android:layout_height="match_parent"
+    android:background="@drawable/t_window_bg"
+    android:orientation="vertical">
+
+
+
+    <!--测试换肤==>图片-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/toolbar"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/cancel"
+            android:layout_weight="1"
+            android:textColor="@color/tabSelectedTextColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="去掉皮肤"/>
+
+        <Button
+            android:id="@+id/change"
+            android:layout_weight="1"
+            android:textColor="@color/tabSelectedTextColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="选择皮肤"/>
+    </LinearLayout>
+
+
+</LinearLayout>
